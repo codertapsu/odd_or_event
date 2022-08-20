@@ -1,0 +1,50 @@
+{
+	"name": "odd_or_even",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"export": "next export",
+		"start": "next start",
+		"dev:ssl": "node scripts/create-local-server.js",
+		"ssl:setup": "node scripts/create-ssl-certs.js",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"next": "12.2.5",
+		"next-pwa": "5.5.4",
+		"next-themes": "^0.2.0",
+		"react": "18.2.0",
+		"react-dom": "18.2.0",
+		"react-feather": "^2.0.10"
+	},
+	"devDependencies": {
+		"@types/node": "18.7.6",
+		"@types/react": "18.0.17",
+		"@types/react-dom": "18.0.6",
+		"@typescript-eslint/eslint-plugin": "^5.33.1",
+		"@typescript-eslint/parser": "^5.33.1",
+		"autoprefixer": "^10.4.8",
+		"body-parser": "^1.20.0",
+		"chalk": "^5.0.1",
+		"devcert": "^1.2.2",
+		"eslint": "8.22.0",
+		"eslint-config-airbnb": "^19.0.4",
+		"eslint-config-next": "12.2.5",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-import": "^2.26.0",
+		"eslint-plugin-jsx-a11y": "^6.6.1",
+		"eslint-plugin-prettier": "^4.2.1",
+		"eslint-plugin-react": "^7.30.1",
+		"eslint-plugin-react-hooks": "^4.6.0",
+		"express": "^4.18.1",
+		"postcss": "^8.4.16",
+		"prettier": "^2.7.1",
+		"prettier-plugin-tailwindcss": "^0.1.13",
+		"sass": "^1.54.4",
+		"tailwindcss": "^3.1.8",
+		"tailwindcss-safe-area": "^0.2.2",
+		"typescript": "4.7.4"
+	}
+}
