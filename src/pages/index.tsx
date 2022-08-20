@@ -1,5 +1,8 @@
 import Page from '@/components/page';
 import Section from '@/components/section';
+import { Web3Address } from '@/components/Web3Address';
+import { Web3Balance } from '@/components/Web3Balance';
+import { Web3Network } from '@/components/Web3Network';
 
 const Index = () => (
 	<Page>
@@ -9,25 +12,10 @@ const Index = () => (
 			</h2>
 
 			<div className='mt-2'>
-				<p className='text-zinc-600 dark:text-zinc-400'>
-					You love rice, and so does the rest of the world. In the crop year
-					2008/2009, the milled rice production volume amounted to over{' '}
-					<span className='font-medium text-zinc-900 dark:text-zinc-50'>
-						448 million tons
-					</span>{' '}
-					worldwide.
-				</p>
-
-				<br />
-
-				<p className='text-sm text-zinc-600 dark:text-zinc-400'>
-					<a
-						href='https://github.com/mvllow/next-pwa-template'
-						className='underline'
-					>
-						Source
-					</a>
-				</p>
+        <h1 className="pb-8 text-4xl font-bold">Home Page</h1>
+        <Web3Address />
+        <Web3Network />
+        <Web3Balance />
 			</div>
 		</Section>
 	</Page>
