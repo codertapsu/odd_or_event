@@ -70,6 +70,7 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import ThemeButton from './theme-button';
+import { Web3Button } from './Web3Button';
 
 const links = [
 	{ label: 'Story', href: '/story' },
@@ -113,14 +114,15 @@ const Appbar = () => {
 							</div>
 						</div>
 
-						<div
+						<Web3Button />
+						{/* <div
 							title='Gluten Free'
 							className='h-10 w-10 rounded-full bg-zinc-200 bg-cover bg-center shadow-inner dark:bg-zinc-800'
 							style={{
 								backgroundImage:
 									'url(https://images.unsplash.com/photo-1612480797665-c96d261eae09?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80)',
 							}}
-						/>
+						/> */}
 					</nav>
 				</div>
 			</header>
